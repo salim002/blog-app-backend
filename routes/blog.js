@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 import AuthController from '../controllers/authController.js';
-import BlogController from '../controllers/BlogController.js';
+import BlogController from '../controllers/blogController.js';
 import CategoryController from '../controllers/CategoryController.js';
 import checkIsUserAuthenticated from '../middlewares/authMiddleware.js';
 
